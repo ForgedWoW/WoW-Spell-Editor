@@ -398,6 +398,21 @@ namespace SpellEditor
                 FilterAuraCombo.Items.Add(auraName);
             }
 
+            // custom stuff. I dont know where those resources are
+
+            string[] customAuraNames = { "317 - SPELL_AURA_MOD_SPELL_DAMAGE_OF_ARMOR",
+            "318 - SPELL_AURA_MOD_BLOCK_VALUE_SCALING" };
+
+            foreach (string customName in customAuraNames)
+            {
+                ApplyAuraName1.Items.Add(customName);
+                ApplyAuraName2.Items.Add(customName);
+                ApplyAuraName3.Items.Add(customName);
+                FilterAuraCombo.Items.Add(customName);
+            }
+
+            // end custom stuff
+
             SpellEffect1.Items.Clear();
             SpellEffect2.Items.Clear();
             SpellEffect3.Items.Clear();

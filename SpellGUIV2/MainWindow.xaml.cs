@@ -384,6 +384,20 @@ namespace SpellEditor
                 procBoxes.Add(box);
             }
 
+            // custom procs
+            string[] customProcs = { " On Damage Blocked" };
+            foreach (string procString in customProcs)
+            {
+                ThreadSafeCheckBox box = new ThreadSafeCheckBox
+                {
+                    Content = procString,
+                    Margin = new Thickness(0, 5, 0, 0)
+                };
+
+                ProcEditorGrid.Children.Add(box);
+                procBoxes.Add(box);
+            }
+
             ApplyAuraName1.Items.Clear();
             ApplyAuraName2.Items.Clear();
             ApplyAuraName3.Items.Clear();

@@ -415,7 +415,8 @@ namespace SpellEditor
             // custom stuff. I dont know where those resources are
 
             string[] customAuraNames = { "317 - SPELL_AURA_MOD_SPELL_DAMAGE_OF_ARMOR",
-            "318 - SPELL_AURA_MOD_BLOCK_VALUE_SCALING" };
+            "318 - SPELL_AURA_MOD_BLOCK_VALUE_SCALING",
+            "319 - SPELL_AURA_MOD_WEAPON_SCHOOL_DAMAGE_EFFECT" };
 
             foreach (string customName in customAuraNames)
             {

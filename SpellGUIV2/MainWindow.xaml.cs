@@ -385,7 +385,12 @@ namespace SpellEditor
             }
 
             // custom procs
-            string[] customProcs = { " On Damage Blocked" };
+            string[] customProcs = { " On Damage Blocked",
+            " On Critical Damage Done",
+            " On Critical Damage Taken",
+            " On Critical Healing Done",
+            " On Critical Healing Taken"};
+
             foreach (string procString in customProcs)
             {
                 ThreadSafeCheckBox box = new ThreadSafeCheckBox

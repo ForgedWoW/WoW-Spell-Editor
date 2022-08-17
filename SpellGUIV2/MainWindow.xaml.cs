@@ -424,7 +424,9 @@ namespace SpellEditor
             "319 - SPELL_AURA_MOD_WEAPON_SCHOOL_DAMAGE_EFFECT",
             "320 - PLACE_HOLDER",
             "321 - SPELL_AURA_MOD_CRITICAL_BLOCK_PCT",
-            "322 - SPELL_AURA_MOD_SPELL_CHARGES"};
+            "322 - SPELL_AURA_MOD_SPELL_CHARGES",
+            "323 - SPELL_AURA_MOD_TRIGGER_SPELL_ON_STACKS_ON_SELF",
+            "324 - SPELL_AURA_MOD_TRIGGER_SPELL_ON_STACKS_ON_TARGET"};
 
             foreach (string customName in customAuraNames)
             {

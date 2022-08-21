@@ -426,7 +426,10 @@ namespace SpellEditor
             "321 - SPELL_AURA_MOD_CRITICAL_BLOCK_PCT",
             "322 - SPELL_AURA_MOD_SPELL_CHARGES",
             "323 - SPELL_AURA_MOD_TRIGGER_SPELL_ON_STACKS_ON_SELF",
-            "324 - SPELL_AURA_MOD_TRIGGER_SPELL_ON_STACKS_ON_TARGET"};
+            "324 - SPELL_AURA_MOD_TRIGGER_SPELL_ON_STACKS_ON_TARGET",
+            "325 - SPELL_AURA_MOD_DAMAGE_TAKEN_PCT_BEFORE_BLOCK",
+            "326 - SPELL_AURA_ADD_SPELL_BLOCK",
+            "327 - SPELL_AURA_MOD_MOVEMENT_SPEED_COMBAT"};
 
             foreach (string customName in customAuraNames)
             {

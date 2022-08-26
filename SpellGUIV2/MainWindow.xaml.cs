@@ -422,7 +422,7 @@ namespace SpellEditor
             string[] customAuraNames = { "317 - SPELL_AURA_MOD_SPELL_DAMAGE_OF_ARMOR",
             "318 - SPELL_AURA_MOD_BLOCK_VALUE_SCALING",
             "319 - SPELL_AURA_MOD_WEAPON_SCHOOL_DAMAGE_EFFECT",
-            "320 - PLACE_HOLDER",
+            "320 - SPELL_AURA_PROC_ADD_DURATION",
             "321 - SPELL_AURA_MOD_CRITICAL_BLOCK_PCT",
             "322 - SPELL_AURA_MOD_SPELL_CHARGES",
             "323 - SPELL_AURA_MOD_TRIGGER_SPELL_ON_STACKS_ON_SELF",
